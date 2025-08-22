@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #000000, #333333);
+  color: white;
+}
+#menu {
+  background: #111;
+  padding: 10px;
+}
+#menu button {
+  margin: 5px;
+  padding: 8px 14px;
+  background: green;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+#menu button:hover {
+  transform: scale(1.1);
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table, th, td {
+  border: 1px solid #555;
+}
+th, td {
+  padding: 6px;
+  text-align: left;
+}
